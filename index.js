@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get ("/test", (request, response) -> {
+app.get ("/test", (request, response) => {
     response.send("Hello from API");
 )}
 
